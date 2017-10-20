@@ -1,0 +1,415 @@
+html
+{
+    position: static;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    top: 40px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+.sportsteams
+{
+    font-size: 22px;
+    font-style: sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 34px;
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+}
+#overallbox
+{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    right: 29px;
+    color: black;
+    display: block;
+    border: 9px solid black;
+    border-width: 5px;
+    background-color: #E6E6FA;
+    z-index: -1;
+    transform: skewX(0deg);
+    box-shadow: 20px 10px 50px 20px;
+box-shadow:
+5px 5px 15px 5px #1cd8bb,
+5px 5px 15px 5px #d8971e,
+5px 5px 15px 5px #ced81d;
+}
+#vikes
+{
+    position: absolute;
+    font-size: 34px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    width: 200px;
+    left: 11px;
+    top: 8.4px;
+    display: block;
+    border: 5px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 5px;
+    background-color: rgba(102,51,153, 0.8);
+    z-index: 1;
+}
+.vikesname
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 21px;
+    color: white;
+    transform: skewX(0deg);
+    top: -17.9px;
+    z-index: 1;
+}
+#vikesscore
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 101px;
+    color: white;
+    top: -17.9px;
+    z-index: 1;
+}
+.vikesnumber
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 171px;
+    color: white;
+    transform: skewX(0deg);
+    top: -17.9px;
+    z-index: 1;
+}
+.minlogo
+{
+    position: relative;
+    height: 35px;
+    width: 60px;
+    left: 88px;
+    top: -40px;
+    opacity: 0.4;
+    z-index: 2;
+}
+#lions
+{
+    position: absolute;
+    left: 225px;
+    top: 8px;
+    font-size: 34px;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    width: 200px;
+    display: block;
+    border: 5px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 5px;
+    background-color: #4169e1;
+    z-index: 2;
+}
+.lionsname
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 236px;
+    color: white;
+    transform: skewX(0deg);
+    top: -17.9px;
+    z-index: 2;
+}
+#lionsscore
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 521px;
+    color: white;
+    top: -17.9px;
+    z-index: 2;
+}
+.lionsnumber
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 389px;
+    color: white;
+    transform: skewX(0deg);
+    top: -17.9px;
+    z-index: 2;
+}
+.detlogo
+{
+    position: relative;
+    height: 35px;
+    width: 60px;
+    left: 243px;
+    top: -40px;
+    opacity: 0.4;
+    z-index: 2;
+    background-color: blue;
+    /*position: relative;
+    height: 35px;
+    width: 60px;
+    left: 88px;
+    top: -40px;
+    opacity: 0.4;
+    z-index: 2;*/
+}
+#clock
+{
+    font-size: 34px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    width: 100px;
+        position: absolute;
+        height: 35px;
+        width: 70px;
+        left: 440px;
+        top: 8.4px;
+        color: #708090;
+    display: block;
+    border: 5px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 5px;
+    background-color: black;
+    z-index: 1;
+}
+.clocktext
+{
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 446px;
+    color: white;
+    top: -17.9px;
+    z-index: 1;
+}
+#quarter
+{
+    font-size: 34px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 35px;
+    width: 100px;
+        position: absolute;
+        height: 35px;
+        width: 70px;
+        left: 526px;
+        top: 8.4px;
+        color: #DAA520;
+    display: block;
+    border: 5px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 5px;
+    background-color: black;
+    z-index: 1;
+}
+.quartertext
+{
+    position: absolute;
+    font-size: 34.5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 532px;
+    color: #808000;
+    /*color: white;*/
+    top: -22px;
+    transform: skewX(0deg);
+    z-index: 1;
+}
+#downanddistance
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+        position: absolute;
+        height: 35px;
+        width: 170px;
+        left: 611px;
+        top: 8.4px;
+        color: black;
+    display: block;
+    border: 5px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 5px;
+    background-color: #FFFCFC;
+    z-index: 1;
+}
+.downtext
+{
+    position: absolute;
+    font-size: 34.5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: 627px;
+    color: black;
+    top: -22px;
+    transform: skewX(0deg);
+    z-index: 1;
+}
+#nflonfox
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+        position: absolute;
+        height: 35px;
+        width: 370px;
+        left: 796px;
+        top: 8.4px;
+        color: black;
+    display: block;
+    border: 5px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 5px;
+    background-color: black;
+    z-index: 1;
+}
+.foxlogo
+{
+    position: absolute;
+    height: 40px;
+    width: 365px;
+    left: 800px;
+    top: 10.2px;
+    z-index: 1;
+    transform: skewX(-15.5deg);
+}
+.vikeslions
+{
+    position: absolute;
+    width: 98%;
+    height: 1200px;
+    left: 0px;
+    top: 10px;
+    opacity: 0.5;
+}
+#foxgraphic
+{
+    position: absolute;
+    height: 115px;
+    width: 220px;
+    left: 168.56px;
+    top: 920px;
+    color: #708090;
+    display: block;
+    border: 10px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 6px;
+    background-color: #DCDCDC;
+    z-index: 1;
+}
+.minlogo2
+{
+    position: absolute;
+    height: 115px;
+    width: 220px;
+    left: 174px;
+    top: 925px;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    opacity: 0.4;
+    z-index: 1;
+}
+.foxlogobasic
+{
+    position: absolute;
+    height: 40px;
+    width: 105px;
+    left: 817px;
+    border: 4px solid gray;
+    transform: skewX(-15.5deg);
+    top: 922px;
+    z-index: 2;
+}
+#vikesname
+{
+    position: absolute;
+    font-style: normal;
+    font-family: Arial black;
+    font-size: 29px;
+    color: white;
+    height: 42px;
+    width: 511px;
+    left: 410px;
+    top: 920px;
+    background-color: black;
+    transform: skewX(-15.5deg);
+    display: block;
+    border: 5px solid black;
+    z-index: 1;
+}
+.minname
+{
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    left: -61px;
+    color: white;
+    top: -35px;
+    transform: skewX(15.5deg);
+    z-index: 3;
+}
+#vikesfact
+{
+    position: absolute;
+    font-style: normal;
+    font-family: Arial black;
+    font-size: 26px;
+    color: yellow;
+    height: 75px;
+    width: 517px;
+    left: 394px;
+    top: 968px;
+    display: block;
+    border: 1px solid black;
+    transform: skewX(-15.5deg);
+    transform-origin: 100%;
+    border-width: 2px;
+    background-color: purple;
+    z-index: 1;
+}
+.vikeslast
+{
+    position: relative;
+    font-size: 25px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    left: 24px;
+    color: yellow;
+    top: -20px;
+    transform: skewX(15.5deg);
+    z-index: 2;
+}
+/*.vikey
+{
+    position: absolute;
+    font-size: 26px;
+    color: #EBEBEB;
+    left: 11px;
+    top: -29px;
+    z-index: 1;
+    transform: skewX(15.5deg);
+}*/
